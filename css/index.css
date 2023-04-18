@@ -1,0 +1,343 @@
+/* Body */
+body{
+    background-image: url(/img/south-station-gbaca2ab6a_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* header */
+.title{
+    opacity: .8;
+    text-align: center;
+    margin: 10px ;
+    padding: 10px 100px;
+    background-color:rgb(37, 37, 37);
+    color: antiquewhite;
+}
+
+/* Menu Navbar */
+.navbar{
+    margin: 10px;
+    border: 100px;
+    padding: 30px 100px;
+    background-color:rgb(37, 37, 37);
+    opacity: .9;
+    color: rgb(255, 255, 255);
+}
+
+
+/* iconos de distribucion */
+#uno{
+    margin: 80px;
+}
+
+/* Selector Frutas */
+#item1{
+    background: #8bc09a;
+    border: 3px solid;
+    padding: 10px;
+    margin: .5px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#item1:hover{
+    transition: all 0.1s; 
+    background-color:#43b663; 
+    cursor: pointer;
+    padding: 20px 20px;
+    border: 4px #000 solid;
+}
+
+/* Selector Verduras */
+#item2{
+    background: #8bc09a;
+    border: 3px solid;
+    padding: 10px;
+    margin: .5px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#item2:hover{
+    transition: all 0.1s; 
+    background-color:#43b663; 
+    cursor: pointer;
+    padding: 20px 20px;
+    border: 4px #000 solid;
+}
+
+/* Selector Panificacion */
+#item3{
+    background: #8bc09a;
+    border: 3px solid;
+    padding: 10px;
+    margin: .5px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#item3:hover{
+    transition: all 0.1s; 
+    background-color:#43b663; 
+    cursor: pointer;
+    padding: 20px 20px;
+    border: 4px #000 solid;
+}
+
+/* Buscador de Producto */
+#busqueda{
+    opacity: .8;
+    margin: 5px;
+    border: 10px;
+    padding: 3px 10px;
+    background-color: #8bc09a;
+    color: black ;
+}
+
+button:hover{
+    transition: all 0.5s;
+    background: #b3b3b3;
+    cursor: pointer;
+}
+
+/* frutas */
+.row{
+    padding: 20px;
+}
+
+#item6{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item7{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item8{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+    
+}
+
+#item9{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+    
+}
+
+/* verduras */
+
+#item10{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item11{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item12{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+    
+}
+
+#item13{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black; 
+}
+
+/* panificacion */
+
+#item14{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item15{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+}
+
+#item16{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black;
+    
+}
+
+#item17{
+    width: 18rem;
+    text-align: center;
+    margin: 10px ;
+    color: black;
+    padding: 10px;
+    border:  3px solid black; 
+}
+
+/* Footer */
+
+footer{
+    margin: 10px;
+    border: 100px;
+    padding: 30px 100px;
+    background-color:rgb(37, 37, 37);
+    opacity: .8;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: end;  
+}
+
+footer:hover{
+    transition: all 0.1s; 
+    background-color:rgb(0, 0, 0); 
+    cursor: pointer;
+}
+
+.navegador li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.navegador li img{
+    border: 1px;
+    margin: 10px;
+    
+}
+
+.redes li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.redes li img{
+    border: 1px;
+    margin: 10px;
+    
+}
+
+.pago li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.pago li img{
+    border: 1px;
+    margin: 10px;
+}
+
+.pago li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.info{
+    border: 1px;
+    margin: 1px;
+    font-size: large;
+    padding: 30px;
+    text-align: center;
+}
+/* estilo de lista footer */
+ul{
+    list-style-type: none;
+}
+
+/* audio */
+.extra{
+    border: 1px;
+    margin: 80px;
+    padding: 20px;
+    opacity: .9;
+    display: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#audio{
+    border: 1px;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+}
+
+/* decoracion de links */
+a:link, a:visited {
+    text-decoration: none;
+    color:white;
+  }
+
+/* alineacion de articulos */
+#articulosVarios{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#articulosVarios .card-title{
+    margin-bottom: 15px;
+    
+}
+
+/* estilo de botones de articulos */
+#articulosVarios .btn.btn-primary{
+    display:flex;
+    justify-content: center;
+    border-radius: 30px;
+    border: red solid;
+    margin: 15px;
+}

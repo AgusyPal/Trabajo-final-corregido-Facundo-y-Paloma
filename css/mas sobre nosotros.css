@@ -1,0 +1,146 @@
+body{
+    background-image: url(/img/south-station-gbaca2ab6a_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Titulo */
+.title{
+    opacity: .8;
+    text-align: center;
+    margin: 10px ;
+    padding: 10px 100px;
+    background-color:rgb(37, 37, 37);
+    color: antiquewhite;
+}
+
+/* Menu */
+.navbar{
+    margin: 10px;
+    border: 100px;
+    padding: 30px 100px;
+    background-color:rgb(37, 37, 37);
+    opacity: .9;
+    color: rgb(255, 255, 255);
+    
+}
+
+.navbar:hover{
+    margin-bottom: 6%;
+    cursor: auto;
+}
+
+/* Informacion */
+.info{
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    opacity: .8;
+    background-color:rgb(228, 167, 75);
+    margin: 10px;
+    border: 20px; 
+}
+
+/* cuadro de idicacion de comentarios */
+#comentarios{
+    font-size:xx-large;
+    opacity: .8;
+    background-color: rgb(228, 167, 75);
+    padding: 30px;
+    border: 20px;
+    margin: 10px;
+}
+
+/* Mejoras - Fallas form */
+.mejoras, .fallas{
+    font-size:x-large;
+    opacity: .8;
+    background-color:rgb(228, 167, 75);
+    padding: 25px;
+    border: 20px;
+    margin: 10px;
+}
+
+/* Footer */
+
+footer{
+    margin: 10px;
+    border: 100px;
+    padding: 30px 100px;
+    background-color:rgb(37, 37, 37);
+    opacity: .8;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: end;  
+}
+
+footer:hover{
+    transition: all 0.1s; 
+    background-color:rgb(0, 0, 0); 
+    cursor: pointer;
+}
+
+.navegador li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.navegador li img{
+    border: 1px;
+    margin: 10px;
+    
+}
+
+.redes li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.redes li img{
+    border: 1px;
+    margin: 10px;
+    
+}
+
+.pago li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.pago li img{
+    border: 1px;
+    margin: 10px;
+}
+
+.pago li{
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.informacion{
+
+    border: 1px;
+    margin: 1px;
+    font-size: large;
+    padding: 30px;
+    text-align: center;
+}
+/* estilo de lista footer */
+ul{
+    list-style-type: none;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color:white;
+  }
+
+ul{
+    list-style-type: none;
+}
